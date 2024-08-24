@@ -1,7 +1,7 @@
 # Dynamic-Difficulty-Adjustment-and-Game-Level-Design-in-Tile-Based-Games-Using-Reinforcement-Learning
 
 
-# Reinforcement Learning for Dynamic Game Level Generation and Difficulty Adjustment
+
 
 ## Overview
 
