@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7284482721852087989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4034512366881544626}
+  - component: {fileID: 7879422827491540280}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034512366881544626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284482721852087989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7799046, y: 6.552997, z: 0.1911665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7879422827491540280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284482721852087989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fa623915783be46ba8313f73315673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  in_level_desing: 1
+  grid_size: 10
+  max_episode_round_plud_level: 10
+  max_tile_changed: 0
+  max_level_step: 0
+  max_game_step: 200
+  constant: {fileID: 2784095412053307971, guid: 40e58b35b4ca4d847be532ee0700c002, type: 3}
+  mean_difficluty: 0
+  level_number: 0
+  round_number: 0
+  satisfied_round_number: 0
+  initial_Results:
+    player: {fileID: 0}
+    total_enemy: 0
+    total_health: 0
+    total_treasure: 0
+    total_wall: 0
+    max_game_step: 0
+  endResults:
+    total_treasure: 0
+    gain: 0
+    not_gain: 0
+    difficulty: 0
+    game_steps: 0
+    max_game_steps: 0
+    healt_count: 0
+    consumed_health: 0
+    enemy_count: 0
+    killed_enemy: 0
+    wall_count: 0
+  phases: 0

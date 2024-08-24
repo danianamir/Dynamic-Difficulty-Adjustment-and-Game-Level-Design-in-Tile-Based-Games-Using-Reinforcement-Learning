@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5097363527656282828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6076792249145611040}
+  - component: {fileID: -3996998277875001854}
+  - component: {fileID: 1545632678473986723}
+  m_Layer: 0
+  m_Name: path_enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6076792249145611040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097363527656282828}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.4921827, y: 6.065108, z: -0.14428197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3996998277875001854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097363527656282828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da0ca9f5d6ddaa4eb0b0185c7bbd15d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyable: 0
+  enemy: 0
+  player: 0
+  agent: 0
+  health_item: 0
+  bullet_item: 0
+--- !u!114 &1545632678473986723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097363527656282828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b952d461164de49bd3b282797dff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathType: 0
+  grid_size: 10
+  cell_size: 0.5
+  cell_count: 0
+  target: {x: 1, y: 1}
+  directions:
+  - {fileID: 4929393889762819013, guid: 22f33cc849b0e684aa48254fa967fed0, type: 3}
+  - {fileID: 8818582760826004335, guid: 8b85e5e434ce4f64f8d8f173587c1b6d, type: 3}
+  - {fileID: 8544644699379180383, guid: 167868c670874ca4a8c352b5ceec8b52, type: 3}
+  - {fileID: 2607426723624741948, guid: e5e57af0253e9374aaf9673d21d7de70, type: 3}
+  - {fileID: 3945551887609504012, guid: 049f34221eadf274197c0497c3b8e445, type: 3}
+  - {fileID: 1895162289869197961, guid: ec1e483ec21be2f46982d73e6403822d, type: 3}
+  - {fileID: 6361903928579160870, guid: 388b8ef9538c6b546a83fa9244bf6de0, type: 3}
+  - {fileID: 5905535387489078405, guid: 9e34ec9c339ec954bacaa964bdb17ce6, type: 3}
+  grids: []
